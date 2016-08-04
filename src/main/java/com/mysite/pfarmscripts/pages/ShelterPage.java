@@ -1,4 +1,4 @@
-package com.mysite.pfarmscripts;
+package com.mysite.pfarmscripts.pages;
 
 /**
  * Created by hrobohboy on 8/2/16.
@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 import java.util.*;
 
 public class ShelterPage {
-    List<WebElement> allPokes;
+    private List<WebElement> allPokes;
     private WebDriver driver;
     private WebElement foundEgg;
     public ShelterPage(WebDriver driv){

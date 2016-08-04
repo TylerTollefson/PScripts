@@ -1,4 +1,4 @@
-package com.mysite.pfarmscripts;
+package com.mysite.pfarmscripts.pages;
 
 /**
  * Created by hrobohboy on 8/2/16.

@@ -3,7 +3,7 @@
 <suite name="PokeFarmNG" verbose="1" >
     <test name="Test">
         <classes>
-            <class name="com.mysite.pfarmscripts.eggFinder"/>
+            <class name="eggFinder"/>
         </classes>
     </test>
 </suite>

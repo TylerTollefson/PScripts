@@ -3,6 +3,8 @@ package com.mysite.pfarmscripts;
 /**
  * Created by hrobohboy on 8/2/16.
  */
+import com.mysite.pfarmscripts.pages.ShelterPage;
+import com.mysite.pfarmscripts.pages.loginpage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
