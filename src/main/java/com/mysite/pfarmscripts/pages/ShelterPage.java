@@ -6,6 +6,9 @@ package com.mysite.pfarmscripts.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.util.*;
 
 public class ShelterPage {
@@ -24,6 +27,8 @@ public class ShelterPage {
                 foundEgg = ele;
                 foundEgg.click();
                 if (putInParty){
+                    WebDriverWait wait = new WebDriverWait(driver, 100);
+                    wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"shelterarea\"]/div[54]/span/button[1]")));
                     driver.findElement(By.xpath("//*[@id=\"shelterarea\"]/div[54]/span/button[1]")).click();
                     driver.findElement(By.xpath("//*[@id=\"adoptloadbox\"]/div[2]/button[1]")).click();
                 }
