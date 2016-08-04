@@ -5,10 +5,12 @@ package com.mysite.pfarmscripts;
  */
 import com.mysite.pfarmscripts.pages.ShelterPage;
 import com.mysite.pfarmscripts.pages.loginpage;
+import com.mysite.pfarmscripts.resources.PokeDex;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.*;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
 public class eggFinder {
     private static loginpage lpage;
@@ -30,12 +32,13 @@ public class eggFinder {
     @Test(priority = 2)
     public void findEgg() throws Exception{
         Thread.sleep(5000);
+        String toFind = PokeDex.abra;
         lpage.goToShelter();
-        WebElement egg = shelterPage.findEgg("/img/pkmn/4/y/r.png?t=1454536576");
+        WebElement egg = shelterPage.findEgg(toFind);
         while (egg == null){
             shelterPage.reloadShelter();
             Thread.sleep(10000);
-            egg = shelterPage.findEgg("/img/pkmn/4/y/r.png?t=1454536576");
+            egg = shelterPage.findEgg(toFind);
         }
     }
 }
