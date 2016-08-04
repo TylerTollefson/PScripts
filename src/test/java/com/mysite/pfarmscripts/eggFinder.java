@@ -32,7 +32,7 @@ public class eggFinder {
     @Test(priority = 2)
     public void findEgg() throws Exception{
         Thread.sleep(5000);
-        String toFind = PokeDex.abra;
+        String toFind = PokeDex.nidoran;
         lpage.goToShelter();
         WebElement egg = shelterPage.findEgg(toFind);
         while (egg == null){
