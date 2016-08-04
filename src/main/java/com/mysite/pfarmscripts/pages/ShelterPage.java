@@ -16,18 +16,22 @@ public class ShelterPage {
         driver = driv;
     }
 
-    public WebElement findEgg(String toFind) {
+    public WebElement findEgg(String toFind, boolean putInParty) {
         allPokes = driver.findElements(By.className("big"));
         for (WebElement ele : allPokes) {
             if (ele.getAttribute("src").contains(toFind)) {
                 System.out.println("Found egg.");
                 foundEgg = ele;
                 foundEgg.click();
+                if (putInParty){
+                    driver.findElement(By.xpath("//*[@id=\"shelterarea\"]/div[54]/span/button[1]")).click();
+                    driver.findElement(By.xpath("//*[@id=\"adoptloadbox\"]/div[2]/button[1]")).click();
+                }
+
             }
         }
         return foundEgg;
     }
-
     public void reloadShelter(){
         driver.findElement(By.xpath("//*[@id=\"sheltercommands\"]/button[1]")).click();
     }
