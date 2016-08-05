@@ -178,7 +178,7 @@ public class PokeDex {
     public static String Electrike = "/img/pkmn/7/7/x.png?t=1454536554";
     public static String Elgyem = "/img/pkmn/6/t/r.png?t=1454509952";
     public static String Ferroseed = "/img/pkmn/g/t/s.png?t=1454545221";
-    public static String Flabébé = "/img/pkmn/e/2/4.png?t=1454545218";
+    public static String Flabebe = "/img/pkmn/e/2/4.png?t=1454545218";
     public static String Frillish = "/img/pkmn/h/9/i.png?t=1454718449";
     public static String Gastly = "/img/pkmn/f/b/0.png?t=1454536552";
     public static String Gligar = "/img/pkmn/m/3/m.png?t=1454545196";
