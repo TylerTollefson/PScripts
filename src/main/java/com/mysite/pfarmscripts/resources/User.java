@@ -1,4 +1,4 @@
-package com.mysite.pfarmscripts;
+package com.mysite.pfarmscripts.resources;
 
 /**
  * Created by Val on 8/4/2016.

@@ -5,6 +5,7 @@ package com.mysite.pfarmscripts;
  */
 import com.mysite.pfarmscripts.pages.ShelterPage;
 import com.mysite.pfarmscripts.pages.LoginPage;
+import com.mysite.pfarmscripts.resources.User;
 import com.mysite.pfarmscripts.resources.PokeDex;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -17,29 +18,29 @@ public class EggFinder {
     private static ShelterPage shelterPage;
 
     @BeforeClass
-    public static void Setup(){
+    public static void setup(){
         WebDriver driver = new ChromeDriver();
         lpage = new LoginPage(driver);
         shelterPage = new ShelterPage(driver);
     }
 
     @Test(priority = 1)
-    public void ClickLogIn(){
-        lpage.ClickLogin();
-        lpage.EnterLoginCreds(User.UserName, User.Password);
+    public void clickLogIn(){
+        lpage.clickLogin();
+        lpage.enterLoginCreds(User.UserName, User.Password);
     }
 
     @Test(priority = 2)
-    public void FindEgg() throws Exception{
+    public void findEgg() throws Exception{
         Thread.sleep(5000);
-        String toFind = PokeDex.Eevee;
+        String toFind = PokeDex.Rhyhorn;
         boolean putInParty = false;
-        lpage.GoToShelter();
-        WebElement egg = shelterPage.FindEgg(toFind, putInParty);
+        lpage.goToShelter();
+        WebElement egg = shelterPage.findEgg(toFind, putInParty);
         while (egg == null){
-            shelterPage.ReloadShelter();
+            shelterPage.reloadShelter();
             Thread.sleep(10000);
-            egg = shelterPage.FindEgg(toFind, putInParty);
+            egg = shelterPage.findEgg(toFind, putInParty);
         }
     }
 }
