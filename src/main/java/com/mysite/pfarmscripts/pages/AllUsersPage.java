@@ -19,7 +19,7 @@ public class AllUsersPage {
         userParty = new UserParty(driver);
     }
 
-    public void clickAllUsers() {
+    public void clickAllUsers() throws InterruptedException {
         List<WebElement> userList = getUserList();
 
         for (WebElement userLink : userList){

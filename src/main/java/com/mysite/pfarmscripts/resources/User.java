@@ -5,5 +5,5 @@ package com.mysite.pfarmscripts.resources;
  */
 public class User {
     public static String UserName = "valaadus";
-    public static String Password = "bakednickthankfuldrag";
+    public static String Password = "";
 }

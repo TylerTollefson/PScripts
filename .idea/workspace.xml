@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e894a694-2a75-446c-997e-1a4b542a29e1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/resources/UserParty.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mysite/pfarmscripts/pages/InteractionsPage.class" afterPath="$PROJECT_DIR$/target/classes/com/mysite/pfarmscripts/pages/InteractionsPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mysite/pfarmscripts/pages/ShelterPage.class" afterPath="$PROJECT_DIR$/target/classes/com/mysite/pfarmscripts/pages/ShelterPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mysite/pfarmscripts/pages/loginpage.class" afterPath="$PROJECT_DIR$/target/classes/com/mysite/pfarmscripts/pages/loginpage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/mysite/pfarmscripts/AutoClickBacks.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mysite/pfarmscripts/AutoClickBacks.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/mysite/pfarmscripts/eggFinder.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mysite/pfarmscripts/eggFinder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mysite/pfarmscripts/pages/AllUsersPage.class" afterPath="$PROJECT_DIR$/target/classes/com/mysite/pfarmscripts/pages/AllUsersPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mysite/pfarmscripts/resources/UserParty.class" afterPath="$PROJECT_DIR$/target/classes/com/mysite/pfarmscripts/resources/UserParty.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/pages/AllUsersPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/pages/AllUsersPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/mysite/pfarmscripts/AutoClickBacks.java" afterPath="$PROJECT_DIR$/src/test/java/com/mysite/pfarmscripts/AutoClickBacks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/resources/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/resources/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/resources/UserParty.java" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/resources/UserParty.java" />
     </list>
     <ignored path="pokefarmscripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +28,7 @@
     <favorites_list name="pokefarmscripts" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.47874427">
+    <splitter split-orientation="horizontal" split-proportion="0.58404183">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
@@ -57,8 +54,8 @@
           <file leaf-file-name="InteractionsPage.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/pages/InteractionsPage.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                <state relative-caret-position="255">
+                  <caret line="19" column="64" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="64" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -66,10 +63,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="AllUsersPage.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="AllUsersPage.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/pages/AllUsersPage.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="493">
+                <state relative-caret-position="425">
                   <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -78,11 +75,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="UserParty.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="UserParty.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/resources/UserParty.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+                <state relative-caret-position="296">
+                  <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -93,7 +90,7 @@
           <file leaf-file-name="AutoClickBacks.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/mysite/pfarmscripts/AutoClickBacks.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="562">
+                <state relative-caret-position="510">
                   <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -105,12 +102,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="EggFinder.java" pinned="false" current-in-tab="true">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="EggFinder.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/mysite/pfarmscripts/EggFinder.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+                <state relative-caret-position="765">
+                  <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -118,10 +115,20 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/resources/User.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="119">
+                  <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="ShelterPage.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/pages/ShelterPage.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
+                <state relative-caret-position="85">
                   <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -133,7 +140,7 @@
           <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/pages/LoginPage.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="157">
+                <state relative-caret-position="238">
                   <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
                   <folding />
                 </state>
@@ -181,8 +188,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/pages/InteractionsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mysite/pfarmscripts/EggFinder.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mysite/pfarmscripts/AutoClickBacks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/resources/UserParty.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/pages/AllUsersPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/resources/Utilities.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/resources/UserParty.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/resources/User.java" />
       </list>
     </option>
   </component>
@@ -194,10 +203,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -224,8 +233,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -718,64 +727,64 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AutoClickBacks - 2016.08.04 at 17h 29m 09s.xml">
+    <history-entry file="AutoClickBacks - 2016.08.04 at 22h 47m 43s.xml">
       <configuration name="AutoClickBacks" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AutoClickBacks - 2016.08.04 at 17h 30m 05s.xml">
+    <history-entry file="AutoClickBacks - 2016.08.04 at 23h 14m 44s.xml">
       <configuration name="AutoClickBacks" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AutoClickBacks - 2016.08.04 at 17h 33m 50s.xml">
+    <history-entry file="AutoClickBacks - 2016.08.04 at 23h 16m 11s.xml">
       <configuration name="AutoClickBacks" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AutoClickBacks - 2016.08.04 at 17h 39m 20s.xml">
+    <history-entry file="AutoClickBacks - 2016.08.04 at 23h 23m 46s.xml">
       <configuration name="AutoClickBacks" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AutoClickBacks - 2016.08.04 at 18h 21m 35s.xml">
+    <history-entry file="AutoClickBacks - 2016.08.04 at 23h 26m 23s.xml">
       <configuration name="AutoClickBacks" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AutoClickBacks - 2016.08.04 at 18h 57m 10s.xml">
+    <history-entry file="AutoClickBacks - 2016.08.04 at 23h 27m 37s.xml">
       <configuration name="AutoClickBacks" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_hrobohboy_Documents_pokefarmscripts_testng_xml - 2016.08.04 at 15h 30m 48s.xml">
-      <configuration name="/Users/hrobohboy/Documents/pokefarmscripts/testng.xml" configurationId="TestNG" />
+    <history-entry file="AutoClickBacks - 2016.08.04 at 23h 28m 34s.xml">
+      <configuration name="AutoClickBacks" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_hrobohboy_Documents_pokefarmscripts_testng_xml - 2016.08.04 at 16h 33m 57s.xml">
-      <configuration name="/Users/hrobohboy/Documents/pokefarmscripts/testng.xml" configurationId="TestNG" />
+    <history-entry file="AutoClickBacks - 2016.08.04 at 23h 38m 24s.xml">
+      <configuration name="AutoClickBacks" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="eggFinder - 2016.08.03 at 22h 39m 51s.xml">
-      <configuration name="eggFinder" configurationId="TestNG" />
+    <history-entry file="AutoClickBacks - 2016.08.04 at 23h 40m 35s.xml">
+      <configuration name="AutoClickBacks" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="eggFinder - 2016.08.03 at 22h 44m 29s.xml">
-      <configuration name="eggFinder" configurationId="TestNG" />
+    <history-entry file="AutoClickBacks - 2016.08.04 at 23h 41m 31s.xml">
+      <configuration name="AutoClickBacks" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20364584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21338913" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20364584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39942113" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28296146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39942113" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -802,24 +811,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/pages/ShelterPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mysite/pfarmscripts/EggFinder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1163,15 +1154,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
+        <state relative-caret-position="238">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/pages/InteractionsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="64" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/pages/ShelterPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="85">
           <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1179,10 +1180,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/pages/InteractionsPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/pages/AllUsersPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="425">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1191,7 +1192,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mysite/pfarmscripts/AutoClickBacks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
+        <state relative-caret-position="510">
           <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1201,31 +1202,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mysite/pfarmscripts/EggFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="765">
+          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/resources/Utilities.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/resources/UserParty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        <state relative-caret-position="296">
+          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/pages/AllUsersPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysite/pfarmscripts/resources/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
