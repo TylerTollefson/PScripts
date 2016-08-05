@@ -16,7 +16,7 @@ public class ShelterPage {
         driver = driv;
     }
 
-    public WebElement findEgg(String toFind, boolean putInParty) {
+    public WebElement FindEgg(String toFind, boolean putInParty) {
         allPokes = driver.findElements(By.className("big"));
         for (WebElement ele : allPokes) {
             if (ele.getAttribute("src").contains(toFind)) {
@@ -32,7 +32,7 @@ public class ShelterPage {
         }
         return foundEgg;
     }
-    public void reloadShelter(){
+    public void ReloadShelter(){
         driver.findElement(By.xpath("//*[@id=\"sheltercommands\"]/button[1]")).click();
     }
 }
