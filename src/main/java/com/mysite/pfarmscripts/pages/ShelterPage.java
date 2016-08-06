@@ -14,21 +14,21 @@ public class ShelterPage {
     private WebDriver driver;
     private WebElement foundEgg;
     private LoginPage loginPage;
+    
     public ShelterPage(WebDriver driv){
         driver = driv;
         loginPage = new LoginPage(driver);
     }
     
-    public void getEgg() throws Exception{
+    public void getEgg(String flute, String pokemon) throws Exception{
         Thread.sleep(5000);
-        String toFind = PokeDex.Eevee;
         boolean putInParty = false;
         loginPage.GoToShelter();
-        WebElement egg = FindEgg(toFind, putInParty);
+        WebElement egg = FindEgg(pokemon, putInParty);
         while (egg == null){
-            ReloadShelter();
+            ReloadShelter(flute);
             Thread.sleep(10000);
-            egg = FindEgg(toFind, putInParty);
+            egg = FindEgg(pokemon, putInParty);
         }
     }
     
@@ -48,7 +48,12 @@ public class ShelterPage {
         }
         return foundEgg;
     }
-    public void ReloadShelter(){
-        driver.findElement(By.xpath("//*[@id=\"sheltercommands\"]/button[1]")).click();
+    public void ReloadShelter(String flute){
+        if (flute == "white")
+            driver.findElement(By.xpath("//*[@id=\"sheltercommands\"]/button[2]")).click();
+        else if (flute == "black")
+            driver.findElement(By.xpath("//*[@id=\"sheltercommands\"]/button[3]")).click();
+        else
+            driver.findElement(By.xpath("//*[@id=\"sheltercommands\"]/button[1]")).click();
     }
 }

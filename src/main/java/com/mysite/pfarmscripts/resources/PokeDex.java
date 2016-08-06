@@ -335,4 +335,6 @@ public class PokeDex {
     public static String Shinxel = "/img/pkmn/v/h/8/n.png?t=1454721175";
     public static String Shooting_Star_Cleffa = "/img/pkmn/x/u/8/z.png?t=1454716982";
     public static String Snowpoke = "/img/pkmn/h/2/l/9.png?t=1454577940";
+    
+    
 }
