@@ -32,8 +32,8 @@ public class eggFinder {
     @Test(priority = 2)
     public void findEgg() throws Exception{
         Thread.sleep(5000);
-        String toFind = PokeDex.caterpie;
-        boolean putInParty = false;
+        String toFind = PokeDex.tentacool;
+        boolean putInParty = true;
         lpage.goToShelter();
         WebElement egg = shelterPage.findEgg(toFind, putInParty);
         while (egg == null){
