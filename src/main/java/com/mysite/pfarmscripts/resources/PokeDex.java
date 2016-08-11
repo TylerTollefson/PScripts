@@ -311,6 +311,7 @@ public class PokeDex {
     public static String Chimchar = "/img/pkmn/g/h/g.png?t=1454718297";
     public static String Cyndaquil = "/img/pkmn/4/2/a.png?t=1454536583";
     public static String Fennekin = "/img/pkmn/u/v/g.png?t=1454536553";
+    public static String Ditto = "/img/pkmn/e/h/x.png?t=1454746451";
     public static String Froakie = "/img/pkmn/j/t/g.png?t=1454717719";
     public static String Mudkip = "/img/pkmn/b/5/9.png?t=1454717431";
     public static String Oshawott = "/img/pkmn/g/2/t.png?t=1454536554";

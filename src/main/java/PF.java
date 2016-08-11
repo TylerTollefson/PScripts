@@ -26,8 +26,13 @@ public class PF extends javax.swing.JFrame {
     
     public PF() {
         initComponents();
+        setDefaults();
     }
     
+    public void setDefaults(){
+        this.setSize(290, 300);
+        kantoPanel.setVisible(false);
+    }
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -46,6 +51,7 @@ public class PF extends javax.swing.JFrame {
         blackButton = new javax.swing.JRadioButton();
         pokemonButton = new javax.swing.JRadioButton();
         eggButton = new javax.swing.JRadioButton();
+        kantoPanel = new javax.swing.JPanel();
         bulbasaurEgg = new javax.swing.JRadioButton();
         charmanderEgg = new javax.swing.JRadioButton();
         squirtleEgg = new javax.swing.JRadioButton();
@@ -58,6 +64,64 @@ public class PF extends javax.swing.JFrame {
         pichuEgg = new javax.swing.JRadioButton();
         sandshrewEgg = new javax.swing.JRadioButton();
         nidoranEgg = new javax.swing.JRadioButton();
+        cleffaEgg = new javax.swing.JRadioButton();
+        vulpixEgg = new javax.swing.JRadioButton();
+        igglybuffEgg = new javax.swing.JRadioButton();
+        zubatEgg = new javax.swing.JRadioButton();
+        oddishEgg = new javax.swing.JRadioButton();
+        parasEgg = new javax.swing.JRadioButton();
+        venonatEgg = new javax.swing.JRadioButton();
+        diglettEgg = new javax.swing.JRadioButton();
+        meowthEgg = new javax.swing.JRadioButton();
+        psyduckEgg = new javax.swing.JRadioButton();
+        mankeyEgg = new javax.swing.JRadioButton();
+        poliwagEgg = new javax.swing.JRadioButton();
+        growlitheEgg = new javax.swing.JRadioButton();
+        abraEgg = new javax.swing.JRadioButton();
+        machopEgg = new javax.swing.JRadioButton();
+        bellsproutEgg = new javax.swing.JRadioButton();
+        tentacoolEgg = new javax.swing.JRadioButton();
+        geodudeEgg = new javax.swing.JRadioButton();
+        ponytaEgg = new javax.swing.JRadioButton();
+        slowpokeEgg = new javax.swing.JRadioButton();
+        magnemiteEgg = new javax.swing.JRadioButton();
+        farfetchdEgg = new javax.swing.JRadioButton();
+        doduoEgg = new javax.swing.JRadioButton();
+        seelEgg = new javax.swing.JRadioButton();
+        grimerEgg = new javax.swing.JRadioButton();
+        shellderEgg = new javax.swing.JRadioButton();
+        gastlyEgg = new javax.swing.JRadioButton();
+        onixEgg = new javax.swing.JRadioButton();
+        drowzeeEgg = new javax.swing.JRadioButton();
+        krabbyEgg = new javax.swing.JRadioButton();
+        voltorbEgg = new javax.swing.JRadioButton();
+        exeggcuteEgg = new javax.swing.JRadioButton();
+        cuboneEgg = new javax.swing.JRadioButton();
+        lickitungEgg = new javax.swing.JRadioButton();
+        koffingEgg = new javax.swing.JRadioButton();
+        rhyhornEgg = new javax.swing.JRadioButton();
+        tangelaEgg = new javax.swing.JRadioButton();
+        kangaskhanEgg = new javax.swing.JRadioButton();
+        horseaEgg = new javax.swing.JRadioButton();
+        goldeenEgg = new javax.swing.JRadioButton();
+        staryuEgg = new javax.swing.JRadioButton();
+        mimeJrEgg = new javax.swing.JRadioButton();
+        mrMimeEgg = new javax.swing.JRadioButton();
+        scytherEgg = new javax.swing.JRadioButton();
+        smoochumEgg = new javax.swing.JRadioButton();
+        pinsirEgg = new javax.swing.JRadioButton();
+        taurosEgg = new javax.swing.JRadioButton();
+        magikarpEgg = new javax.swing.JRadioButton();
+        laprasEgg = new javax.swing.JRadioButton();
+        dittoEgg = new javax.swing.JRadioButton();
+        eeveeEgg = new javax.swing.JRadioButton();
+        omanyteEgg = new javax.swing.JRadioButton();
+        kabutoEgg = new javax.swing.JRadioButton();
+        aerodactylEgg = new javax.swing.JRadioButton();
+        munchlaxEgg = new javax.swing.JRadioButton();
+        snorlaxEgg = new javax.swing.JRadioButton();
+        dratiniEgg = new javax.swing.JRadioButton();
+        kantoToggle = new javax.swing.JToggleButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -165,26 +229,428 @@ public class PF extends javax.swing.JFrame {
         nidoranEgg.setText("Nidoran");
         nidoranEgg.setName(PokeDex.Nidoran);
 
+        cleffaEgg.setText("Cleffa");
+        cleffaEgg.setName(PokeDex.Cleffa);
+
+        vulpixEgg.setText("Vulpix");
+        vulpixEgg.setName(PokeDex.Vulpix);
+
+        igglybuffEgg.setText("Igglybuff");
+        igglybuffEgg.setName(PokeDex.Igglybuff);
+
+        zubatEgg.setText("Zubat");
+        zubatEgg.setName(PokeDex.Zubat);
+
+        oddishEgg.setText("Oddish");
+        oddishEgg.setName(PokeDex.Oddish);
+
+        parasEgg.setText("Paras");
+        parasEgg.setName(PokeDex.Paras);
+
+        venonatEgg.setText("Venonat");
+        venonatEgg.setName(PokeDex.Venonat);
+
+        diglettEgg.setText("Diglett");
+        diglettEgg.setName(PokeDex.Diglett);
+
+        meowthEgg.setText("Meowth");
+        meowthEgg.setName(PokeDex.Meowth);
+
+        psyduckEgg.setText("Psyduck");
+        psyduckEgg.setName(PokeDex.Psyduck);
+
+        mankeyEgg.setText("Mankey");
+        mankeyEgg.setName(PokeDex.Mankey);
+
+        poliwagEgg.setText("Poliwag");
+        poliwagEgg.setName(PokeDex.Poliwag);
+
+        growlitheEgg.setText("Growlithe");
+        growlitheEgg.setName(PokeDex.Growlithe);
+
+        abraEgg.setText("Abra");
+        abraEgg.setName(PokeDex.Abra);
+
+        machopEgg.setText("Machop");
+        machopEgg.setName(PokeDex.Machop);
+
+        bellsproutEgg.setText("Bellsprout");
+        bellsproutEgg.setName(PokeDex.Bellsprout);
+
+        tentacoolEgg.setText("Tentacool");
+        tentacoolEgg.setName(PokeDex.Tentacool);
+
+        geodudeEgg.setText("Geodude");
+        geodudeEgg.setName(PokeDex.Geodude);
+
+        ponytaEgg.setText("Ponyta");
+        ponytaEgg.setName(PokeDex.Ponyta);
+
+        slowpokeEgg.setText("Slowpoke");
+        slowpokeEgg.setName(PokeDex.Slowpoke);
+
+        magnemiteEgg.setText("Magnemite");
+        magnemiteEgg.setName(PokeDex.Magnemite);
+
+        farfetchdEgg.setText("Farfetch'd");
+        farfetchdEgg.setName(PokeDex.Farfetchd);
+
+        doduoEgg.setText("Doduo");
+        doduoEgg.setName(PokeDex.Doduo);
+
+        seelEgg.setText("Seel");
+        seelEgg.setName(PokeDex.Seel);
+
+        grimerEgg.setText("Grimer");
+        grimerEgg.setName(PokeDex.Grimer);
+
+        shellderEgg.setText("Shellder");
+        shellderEgg.setName(PokeDex.Shellder);
+
+        gastlyEgg.setText("Gastly");
+        gastlyEgg.setName(PokeDex.Gastly);
+
+        onixEgg.setText("Onix");
+        onixEgg.setName(PokeDex.Onix);
+
+        drowzeeEgg.setText("Drowzee");
+        drowzeeEgg.setName(PokeDex.Drowzee);
+
+        krabbyEgg.setText("Krabby");
+        krabbyEgg.setName(PokeDex.Krabby);
+
+        voltorbEgg.setText("Voltorb");
+        voltorbEgg.setName(PokeDex.Voltorb);
+
+        exeggcuteEgg.setText("Exeggcute");
+        exeggcuteEgg.setName(PokeDex.Exeggcute);
+
+        cuboneEgg.setText("Cubone");
+        cuboneEgg.setName(PokeDex.Cubone);
+
+        lickitungEgg.setText("Lickitung");
+        lickitungEgg.setName(PokeDex.Lickitung);
+
+        koffingEgg.setText("Koffing");
+        koffingEgg.setName(PokeDex.Koffing);
+
+        rhyhornEgg.setText("Rhyhorn");
+        rhyhornEgg.setName(PokeDex.Rhyhorn);
+
+        tangelaEgg.setText("Tangela");
+        tangelaEgg.setName(PokeDex.Tangela);
+
+        kangaskhanEgg.setText("Kangaskhan");
+        kangaskhanEgg.setName(PokeDex.Kangaskhan);
+
+        horseaEgg.setText("Horsea");
+        horseaEgg.setName(PokeDex.Horsea);
+
+        goldeenEgg.setText("Goldeen");
+        goldeenEgg.setName(PokeDex.Goldeen);
+
+        staryuEgg.setText("Staryu");
+        staryuEgg.setName(PokeDex.Staryu);
+
+        mimeJrEgg.setText("Mime Jr.");
+        mimeJrEgg.setName(PokeDex.Mime_jr);
+
+        mrMimeEgg.setText("Mr. Mime");
+        mrMimeEgg.setName(PokeDex.Mr_mime);
+
+        scytherEgg.setText("Scyther");
+        scytherEgg.setName(PokeDex.Scyther);
+
+        smoochumEgg.setText("Smoochum");
+        smoochumEgg.setName(PokeDex.Smoochum);
+
+        pinsirEgg.setText("Pinsir");
+        pinsirEgg.setName(PokeDex.Pinsir);
+
+        taurosEgg.setText("Tauros");
+        taurosEgg.setName(PokeDex.Tauros);
+
+        magikarpEgg.setText("Magikarp");
+        magikarpEgg.setName(PokeDex.Magikarp);
+
+        laprasEgg.setText("Lapras");
+        laprasEgg.setName(PokeDex.Lapras);
+
+        dittoEgg.setText("Ditto");
+        dittoEgg.setName(PokeDex.Ditto);
+
+        eeveeEgg.setText("Eevee");
+        eeveeEgg.setName(PokeDex.Eevee);
+
+        omanyteEgg.setText("Omanyte");
+        omanyteEgg.setName(PokeDex.Omanyte);
+
+        kabutoEgg.setText("Kabuto");
+        kabutoEgg.setName(PokeDex.Kabuto);
+
+        aerodactylEgg.setText("Aerodactyl");
+        aerodactylEgg.setName(PokeDex.Aerodactyl);
+
+        munchlaxEgg.setText("Munchlax");
+        munchlaxEgg.setName(PokeDex.Munchlax);
+
+        snorlaxEgg.setText("Snorlax");
+        snorlaxEgg.setName(PokeDex.Snorlax);
+
+        dratiniEgg.setText("Dratini");
+        dratiniEgg.setName(PokeDex.Dratini);
+
+        javax.swing.GroupLayout kantoPanelLayout = new javax.swing.GroupLayout(kantoPanel);
+        kantoPanel.setLayout(kantoPanelLayout);
+        kantoPanelLayout.setHorizontalGroup(
+            kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(kantoPanelLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(munchlaxEgg)
+                    .addGroup(kantoPanelLayout.createSequentialGroup()
+                        .addComponent(bellsproutEgg)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(tentacoolEgg))
+                    .addComponent(growlitheEgg)
+                    .addGroup(kantoPanelLayout.createSequentialGroup()
+                        .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(kantoPanelLayout.createSequentialGroup()
+                                .addComponent(ponytaEgg)
+                                .addGap(14, 14, 14))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, kantoPanelLayout.createSequentialGroup()
+                                .addComponent(farfetchdEgg)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
+                        .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(doduoEgg)
+                            .addComponent(slowpokeEgg)))
+                    .addComponent(onixEgg)
+                    .addGroup(kantoPanelLayout.createSequentialGroup()
+                        .addComponent(grimerEgg)
+                        .addGap(18, 18, 18)
+                        .addComponent(shellderEgg))
+                    .addComponent(lickitungEgg)
+                    .addComponent(goldeenEgg)
+                    .addComponent(mrMimeEgg)
+                    .addComponent(pinsirEgg)
+                    .addComponent(caterpieEgg)
+                    .addComponent(rattataEgg)
+                    .addGroup(kantoPanelLayout.createSequentialGroup()
+                        .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(bulbasaurEgg)
+                            .addComponent(pichuEgg)
+                            .addComponent(cleffaEgg)
+                            .addComponent(zubatEgg)
+                            .addComponent(venonatEgg)
+                            .addComponent(psyduckEgg)
+                            .addComponent(voltorbEgg)
+                            .addComponent(tangelaEgg)
+                            .addComponent(laprasEgg)
+                            .addComponent(omanyteEgg))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(kantoPanelLayout.createSequentialGroup()
+                                .addComponent(spearowEgg)
+                                .addGap(18, 18, 18)
+                                .addComponent(ekansEgg))
+                            .addGroup(kantoPanelLayout.createSequentialGroup()
+                                .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(charmanderEgg)
+                                    .addComponent(weedleEgg))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(pidgeyEgg)
+                                    .addComponent(squirtleEgg)))
+                            .addGroup(kantoPanelLayout.createSequentialGroup()
+                                .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(sandshrewEgg)
+                                    .addComponent(vulpixEgg)
+                                    .addComponent(oddishEgg)
+                                    .addComponent(diglettEgg)
+                                    .addComponent(mankeyEgg)
+                                    .addComponent(abraEgg)
+                                    .addGroup(kantoPanelLayout.createSequentialGroup()
+                                        .addGap(2, 2, 2)
+                                        .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(exeggcuteEgg)
+                                            .addComponent(drowzeeEgg)
+                                            .addComponent(koffingEgg)
+                                            .addComponent(kangaskhanEgg)
+                                            .addComponent(staryuEgg)
+                                            .addComponent(scytherEgg)
+                                            .addComponent(taurosEgg)
+                                            .addComponent(dittoEgg)
+                                            .addComponent(kabutoEgg)
+                                            .addComponent(snorlaxEgg))))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(aerodactylEgg)
+                                    .addComponent(nidoranEgg)
+                                    .addComponent(geodudeEgg)
+                                    .addComponent(magnemiteEgg)
+                                    .addComponent(seelEgg)
+                                    .addComponent(gastlyEgg)
+                                    .addComponent(krabbyEgg)
+                                    .addComponent(cuboneEgg)
+                                    .addComponent(rhyhornEgg)
+                                    .addComponent(horseaEgg)
+                                    .addComponent(mimeJrEgg)
+                                    .addComponent(smoochumEgg)
+                                    .addComponent(magikarpEgg)
+                                    .addComponent(eeveeEgg)
+                                    .addComponent(dratiniEgg)
+                                    .addComponent(poliwagEgg)
+                                    .addComponent(meowthEgg)
+                                    .addComponent(parasEgg)
+                                    .addComponent(igglybuffEgg)
+                                    .addComponent(machopEgg)))))))
+        );
+        kantoPanelLayout.setVerticalGroup(
+            kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(kantoPanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addComponent(bulbasaurEgg)
+                        .addComponent(charmanderEgg))
+                    .addComponent(squirtleEgg))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(caterpieEgg)
+                    .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(pidgeyEgg)
+                        .addComponent(weedleEgg)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(rattataEgg)
+                    .addComponent(spearowEgg)
+                    .addComponent(ekansEgg))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(pichuEgg)
+                    .addComponent(sandshrewEgg)
+                    .addComponent(nidoranEgg))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(cleffaEgg)
+                    .addComponent(vulpixEgg)
+                    .addComponent(igglybuffEgg))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(zubatEgg)
+                    .addComponent(oddishEgg)
+                    .addComponent(parasEgg))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(venonatEgg)
+                    .addComponent(diglettEgg)
+                    .addComponent(meowthEgg))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(psyduckEgg)
+                    .addComponent(mankeyEgg)
+                    .addComponent(poliwagEgg))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(abraEgg)
+                    .addComponent(machopEgg)
+                    .addComponent(growlitheEgg))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(bellsproutEgg)
+                    .addComponent(tentacoolEgg)
+                    .addComponent(geodudeEgg))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(ponytaEgg)
+                    .addComponent(slowpokeEgg)
+                    .addComponent(magnemiteEgg))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(farfetchdEgg)
+                    .addComponent(doduoEgg)
+                    .addComponent(seelEgg))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(grimerEgg)
+                    .addComponent(shellderEgg)
+                    .addComponent(gastlyEgg))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(onixEgg)
+                    .addComponent(drowzeeEgg)
+                    .addComponent(krabbyEgg))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(exeggcuteEgg)
+                    .addComponent(voltorbEgg)
+                    .addComponent(cuboneEgg))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lickitungEgg)
+                    .addComponent(koffingEgg)
+                    .addComponent(rhyhornEgg))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(horseaEgg)
+                    .addComponent(kangaskhanEgg)
+                    .addComponent(tangelaEgg))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(goldeenEgg)
+                    .addComponent(staryuEgg)
+                    .addComponent(mimeJrEgg))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(mrMimeEgg)
+                    .addComponent(scytherEgg)
+                    .addComponent(smoochumEgg))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(pinsirEgg)
+                    .addComponent(taurosEgg)
+                    .addComponent(magikarpEgg))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(laprasEgg)
+                    .addComponent(dittoEgg)
+                    .addComponent(eeveeEgg))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(omanyteEgg)
+                    .addComponent(kabutoEgg)
+                    .addComponent(aerodactylEgg))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(kantoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(munchlaxEgg)
+                    .addComponent(snorlaxEgg)
+                    .addComponent(dratiniEgg))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        kantoToggle.setText("Show Kanto");
+        kantoToggle.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                kantoToggleActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(10, 10, 10)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(goButton, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(0, 10, Short.MAX_VALUE)
-                        .addComponent(noneButton)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(whiteButton)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(blackButton)
-                        .addGap(32, 32, 32))
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(caterpieEgg)
-                            .addComponent(rattataEgg)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(searchLabel)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(pokemonButton)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(eggButton))
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                 .addGroup(layout.createSequentialGroup()
                                     .addComponent(userLabel)
@@ -193,38 +659,24 @@ public class PF extends javax.swing.JFrame {
                                 .addGroup(layout.createSequentialGroup()
                                     .addComponent(pwLabel)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                    .addComponent(pwInput)))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(19, 19, 19)
-                                .addComponent(searchLabel)
-                                .addGap(34, 34, 34)
-                                .addComponent(pokemonButton)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(eggButton))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(bulbasaurEgg)
-                                    .addComponent(pichuEgg))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(spearowEgg)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(ekansEgg))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(charmanderEgg)
-                                            .addComponent(weedleEgg))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(pidgeyEgg)
-                                            .addComponent(squirtleEgg)))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(sandshrewEgg)
-                                        .addGap(6, 6, 6)
-                                        .addComponent(nidoranEgg)))))
+                                    .addComponent(pwInput))))
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(kantoPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(22, 22, 22)
+                        .addComponent(noneButton)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(whiteButton)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(blackButton)))
+                .addGap(0, 14, Short.MAX_VALUE))
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(kantoToggle)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -237,34 +689,16 @@ public class PF extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(pwLabel)
                     .addComponent(pwInput, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(22, 22, 22)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(searchLabel)
                     .addComponent(pokemonButton)
                     .addComponent(eggButton))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addComponent(bulbasaurEgg)
-                        .addComponent(charmanderEgg))
-                    .addComponent(squirtleEgg))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(caterpieEgg)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(pidgeyEgg)
-                        .addComponent(weedleEgg)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(rattataEgg)
-                    .addComponent(spearowEgg)
-                    .addComponent(ekansEgg))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(pichuEgg)
-                    .addComponent(sandshrewEgg)
-                    .addComponent(nidoranEgg))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 31, Short.MAX_VALUE)
+                .addComponent(kantoToggle)
+                .addGap(4, 4, 4)
+                .addComponent(kantoPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 43, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(noneButton)
                     .addComponent(whiteButton)
@@ -319,35 +753,20 @@ public class PF extends javax.swing.JFrame {
         flute = "black";
     }//GEN-LAST:event_blackButtonActionPerformed
 
+    private void kantoToggleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_kantoToggleActionPerformed
+        if (kantoPanel.isVisible()){
+            kantoPanel.setVisible(false);
+            this.setSize(290, 300);
+        }else{
+            kantoPanel.setVisible(true);
+            this.setSize(290, 1000);
+        }
+    }//GEN-LAST:event_kantoToggleActionPerformed
+
     /**
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(PF.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(PF.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(PF.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(PF.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-        //</editor-fold>
-
-        /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new PF().setVisible(true);
@@ -356,31 +775,90 @@ public class PF extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JRadioButton abraEgg;
+    private javax.swing.JRadioButton aerodactylEgg;
+    private javax.swing.JRadioButton bellsproutEgg;
     private javax.swing.JRadioButton blackButton;
     private javax.swing.JRadioButton bulbasaurEgg;
     private javax.swing.JRadioButton caterpieEgg;
     private javax.swing.JRadioButton charmanderEgg;
+    private javax.swing.JRadioButton cleffaEgg;
+    private javax.swing.JRadioButton cuboneEgg;
+    private javax.swing.JRadioButton diglettEgg;
+    private javax.swing.JRadioButton dittoEgg;
+    private javax.swing.JRadioButton doduoEgg;
+    private javax.swing.JRadioButton dratiniEgg;
+    private javax.swing.JRadioButton drowzeeEgg;
+    private javax.swing.JRadioButton eeveeEgg;
     private javax.swing.JRadioButton eggButton;
     private javax.swing.JRadioButton ekansEgg;
+    private javax.swing.JRadioButton exeggcuteEgg;
+    private javax.swing.JRadioButton farfetchdEgg;
+    private javax.swing.JRadioButton gastlyEgg;
+    private javax.swing.JRadioButton geodudeEgg;
     private javax.swing.JButton goButton;
+    private javax.swing.JRadioButton goldeenEgg;
+    private javax.swing.JRadioButton grimerEgg;
+    private javax.swing.JRadioButton growlitheEgg;
+    private javax.swing.JRadioButton horseaEgg;
+    private javax.swing.JRadioButton igglybuffEgg;
+    private javax.swing.JRadioButton kabutoEgg;
+    private javax.swing.JRadioButton kangaskhanEgg;
+    private javax.swing.JPanel kantoPanel;
+    private javax.swing.JToggleButton kantoToggle;
+    private javax.swing.JRadioButton koffingEgg;
+    private javax.swing.JRadioButton krabbyEgg;
+    private javax.swing.JRadioButton laprasEgg;
+    private javax.swing.JRadioButton lickitungEgg;
+    private javax.swing.JRadioButton machopEgg;
+    private javax.swing.JRadioButton magikarpEgg;
+    private javax.swing.JRadioButton magnemiteEgg;
+    private javax.swing.JRadioButton mankeyEgg;
+    private javax.swing.JRadioButton meowthEgg;
+    private javax.swing.JRadioButton mimeJrEgg;
+    private javax.swing.JRadioButton mrMimeEgg;
+    private javax.swing.JRadioButton munchlaxEgg;
     private javax.swing.JRadioButton nidoranEgg;
     private javax.swing.JRadioButton noneButton;
+    private javax.swing.JRadioButton oddishEgg;
+    private javax.swing.JRadioButton omanyteEgg;
+    private javax.swing.JRadioButton onixEgg;
+    private javax.swing.JRadioButton parasEgg;
     private javax.swing.JRadioButton pichuEgg;
     private javax.swing.JRadioButton pidgeyEgg;
+    private javax.swing.JRadioButton pinsirEgg;
     private javax.swing.JRadioButton pokemonButton;
     private javax.swing.ButtonGroup pokemonEgg;
     private javax.swing.ButtonGroup pokemonStage;
+    private javax.swing.JRadioButton poliwagEgg;
+    private javax.swing.JRadioButton ponytaEgg;
+    private javax.swing.JRadioButton psyduckEgg;
     private javax.swing.JPasswordField pwInput;
     private javax.swing.JLabel pwLabel;
     private javax.swing.JRadioButton rattataEgg;
+    private javax.swing.JRadioButton rhyhornEgg;
     private javax.swing.JRadioButton sandshrewEgg;
+    private javax.swing.JRadioButton scytherEgg;
     private javax.swing.JLabel searchLabel;
     private javax.swing.ButtonGroup searchType;
+    private javax.swing.JRadioButton seelEgg;
+    private javax.swing.JRadioButton shellderEgg;
+    private javax.swing.JRadioButton slowpokeEgg;
+    private javax.swing.JRadioButton smoochumEgg;
+    private javax.swing.JRadioButton snorlaxEgg;
     private javax.swing.JRadioButton spearowEgg;
     private javax.swing.JRadioButton squirtleEgg;
+    private javax.swing.JRadioButton staryuEgg;
+    private javax.swing.JRadioButton tangelaEgg;
+    private javax.swing.JRadioButton taurosEgg;
+    private javax.swing.JRadioButton tentacoolEgg;
     private javax.swing.JTextField userInput;
     private javax.swing.JLabel userLabel;
+    private javax.swing.JRadioButton venonatEgg;
+    private javax.swing.JRadioButton voltorbEgg;
+    private javax.swing.JRadioButton vulpixEgg;
     private javax.swing.JRadioButton weedleEgg;
     private javax.swing.JRadioButton whiteButton;
+    private javax.swing.JRadioButton zubatEgg;
     // End of variables declaration//GEN-END:variables
 }

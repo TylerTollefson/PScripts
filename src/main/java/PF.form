@@ -32,23 +32,19 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="goButton" alignment="1" max="32767" attributes="0"/>
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace min="0" pref="10" max="32767" attributes="0"/>
-                      <Component id="noneButton" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="whiteButton" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="blackButton" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="caterpieEgg" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="rattataEgg" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="searchLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="pokemonButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="eggButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="userLabel" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
@@ -60,49 +56,30 @@
                                   <Component id="pwInput" max="32767" attributes="0"/>
                               </Group>
                           </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
-                              <Component id="searchLabel" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                              <Component id="pokemonButton" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="eggButton" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="bulbasaurEgg" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="pichuEgg" alignment="0" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="spearowEgg" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="ekansEgg" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="charmanderEgg" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="weedleEgg" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="pidgeyEgg" min="-2" max="-2" attributes="0"/>
-                                          <Component id="squirtleEgg" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="sandshrewEgg" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
-                                      <Component id="nidoranEgg" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                          </Group>
                       </Group>
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="kantoPanel" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <Component id="noneButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="whiteButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="blackButton" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="0" pref="14" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="kantoToggle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -119,41 +96,17 @@
                   <Component id="pwLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="pwInput" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="searchLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="pokemonButton" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="eggButton" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="103" groupAlignment="1" attributes="0">
-                      <Component id="bulbasaurEgg" min="-2" max="-2" attributes="0"/>
-                      <Component id="charmanderEgg" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Component id="squirtleEgg" min="-2" max="-2" attributes="0"/>
-              </Group>
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="caterpieEgg" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                      <Component id="pidgeyEgg" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="weedleEgg" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="rattataEgg" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="spearowEgg" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="ekansEgg" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="pichuEgg" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="sandshrewEgg" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="nidoranEgg" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace pref="31" max="32767" attributes="0"/>
+              <Component id="kantoToggle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+              <Component id="kantoPanel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="43" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="noneButton" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="whiteButton" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -252,137 +205,882 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="eggButtonActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JRadioButton" name="bulbasaurEgg">
+    <Container class="javax.swing.JPanel" name="kantoPanel">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="munchlaxEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="bellsproutEgg" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="tentacoolEgg" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="growlitheEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="ponytaEgg" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="farfetchdEgg" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="doduoEgg" min="-2" max="-2" attributes="0"/>
+                              <Component id="slowpokeEgg" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="onixEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="grimerEgg" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="shellderEgg" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="lickitungEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="goldeenEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="mrMimeEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="pinsirEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="caterpieEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="rattataEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="bulbasaurEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="pichuEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="cleffaEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="zubatEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="venonatEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="psyduckEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="voltorbEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="tangelaEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="laprasEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="omanyteEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="spearowEgg" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="ekansEgg" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="charmanderEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="weedleEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="pidgeyEgg" min="-2" max="-2" attributes="0"/>
+                                      <Component id="squirtleEgg" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="sandshrewEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="vulpixEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="oddishEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="diglettEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="mankeyEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="abraEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="exeggcuteEgg" min="-2" max="-2" attributes="0"/>
+                                              <Component id="drowzeeEgg" min="-2" max="-2" attributes="0"/>
+                                              <Component id="koffingEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="kangaskhanEgg" min="-2" max="-2" attributes="0"/>
+                                              <Component id="staryuEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="scytherEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="taurosEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="dittoEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="kabutoEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="snorlaxEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="aerodactylEgg" min="-2" max="-2" attributes="0"/>
+                                      <Component id="nidoranEgg" min="-2" max="-2" attributes="0"/>
+                                      <Component id="geodudeEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="magnemiteEgg" min="-2" max="-2" attributes="0"/>
+                                      <Component id="seelEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="gastlyEgg" min="-2" max="-2" attributes="0"/>
+                                      <Component id="krabbyEgg" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cuboneEgg" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rhyhornEgg" min="-2" max="-2" attributes="0"/>
+                                      <Component id="horseaEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="mimeJrEgg" min="-2" max="-2" attributes="0"/>
+                                      <Component id="smoochumEgg" min="-2" max="-2" attributes="0"/>
+                                      <Component id="magikarpEgg" min="-2" max="-2" attributes="0"/>
+                                      <Component id="eeveeEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="dratiniEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="poliwagEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="meowthEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="parasEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="igglybuffEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="machopEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                          <Component id="bulbasaurEgg" min="-2" max="-2" attributes="0"/>
+                          <Component id="charmanderEgg" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="squirtleEgg" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="caterpieEgg" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="pidgeyEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="weedleEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="rattataEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="spearowEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ekansEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="pichuEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="sandshrewEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="nidoranEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="cleffaEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="vulpixEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="igglybuffEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="zubatEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="oddishEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="parasEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="venonatEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="diglettEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="meowthEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="psyduckEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="mankeyEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="poliwagEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="abraEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="machopEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="growlitheEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="bellsproutEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tentacoolEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="geodudeEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="ponytaEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="slowpokeEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="magnemiteEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="farfetchdEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="doduoEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="seelEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="grimerEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="shellderEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="gastlyEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="onixEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="drowzeeEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="krabbyEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="exeggcuteEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="voltorbEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cuboneEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lickitungEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="koffingEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="rhyhornEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="horseaEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="kangaskhanEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tangelaEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="goldeenEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="staryuEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="mimeJrEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="mrMimeEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scytherEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="smoochumEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="pinsirEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="taurosEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="magikarpEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="laprasEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dittoEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="eeveeEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="omanyteEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="kabutoEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="aerodactylEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="munchlaxEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="snorlaxEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dratiniEgg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JRadioButton" name="bulbasaurEgg">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="pokemonEgg"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Bulbasaur"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Bulbasaur" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="charmanderEgg">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="pokemonEgg"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Charmander"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Charmander" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="squirtleEgg">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="pokemonEgg"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Squirtle"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Squirtle" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="caterpieEgg">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="pokemonEgg"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Caterpie"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Caterpie" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="weedleEgg">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="pokemonEgg"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Weedle"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Weedle" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="pidgeyEgg">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="pokemonEgg"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Pidgey"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Pidgey" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rattataEgg">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="pokemonEgg"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Rattata"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Weedle" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="spearowEgg">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="pokemonEgg"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Spearow"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Spearow" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="ekansEgg">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="pokemonEgg"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Ekans"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Ekans" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="pichuEgg">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="pokemonEgg"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Pichu"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Pichu" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="sandshrewEgg">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="pokemonEgg"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Sandshrew"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Sandshrew" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="nidoranEgg">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="pokemonEgg"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Nidoran"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Nidoran" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="cleffaEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cleffa"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Cleffa" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="vulpixEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Vulpix"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Vulpix" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="igglybuffEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Igglybuff"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Igglybuff" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="zubatEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Zubat"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Zubat" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="oddishEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Oddish"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Oddish" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="parasEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Paras"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Paras" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="venonatEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Venonat"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Venonat" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="diglettEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Diglett"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Diglett" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="meowthEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Meowth"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Meowth" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="psyduckEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Psyduck"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Psyduck" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="mankeyEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Mankey"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Mankey" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="poliwagEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Poliwag"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Poliwag" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="growlitheEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Growlithe"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Growlithe" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="abraEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Abra"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Abra" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="machopEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Machop"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Machop" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="bellsproutEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Bellsprout"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Bellsprout" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="tentacoolEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tentacool"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Tentacool" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="geodudeEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Geodude"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Geodude" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="ponytaEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ponyta"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Ponyta" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="slowpokeEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Slowpoke"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Slowpoke" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="magnemiteEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Magnemite"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Magnemite" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="farfetchdEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Farfetch&apos;d"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Farfetchd" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="doduoEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Doduo"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Doduo" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="seelEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Seel"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Seel" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="grimerEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Grimer"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Grimer" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="shellderEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Shellder"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Shellder" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="gastlyEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Gastly"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Gastly" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="onixEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Onix"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Onix" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="drowzeeEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Drowzee"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Drowzee" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="krabbyEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Krabby"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Krabby" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="voltorbEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Voltorb"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Voltorb" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="exeggcuteEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Exeggcute"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Exeggcute" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="cuboneEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cubone"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Cubone" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="lickitungEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lickitung"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Lickitung" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koffingEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Koffing"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Koffing" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rhyhornEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Rhyhorn"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Rhyhorn" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="tangelaEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tangela"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Tangela" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="kangaskhanEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kangaskhan"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Kangaskhan" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="horseaEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Horsea"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Horsea" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="goldeenEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Goldeen"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Goldeen" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="staryuEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Staryu"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Staryu" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="mimeJrEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Mime Jr."/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Mime_jr" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="mrMimeEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Mr. Mime"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Mr_mime" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="scytherEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Scyther"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Scyther" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="smoochumEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Smoochum"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Smoochum" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="pinsirEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Pinsir"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Pinsir" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="taurosEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tauros"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Tauros" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="magikarpEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Magikarp"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Magikarp" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="laprasEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lapras"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Lapras" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="dittoEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ditto"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Ditto" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="eeveeEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Eevee"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Eevee" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="omanyteEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Omanyte"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Omanyte" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="kabutoEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kabuto"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Kabuto" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="aerodactylEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Aerodactyl"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Aerodactyl" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="munchlaxEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Munchlax"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Munchlax" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="snorlaxEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Snorlax"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Snorlax" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="dratiniEgg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Dratini"/>
+            <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="PokeDex.Dratini" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JToggleButton" name="kantoToggle">
       <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="pokemonEgg"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Bulbasaur"/>
-        <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
-          <Connection code="PokeDex.Bulbasaur" type="code"/>
-        </Property>
+        <Property name="text" type="java.lang.String" value="Show Kanto"/>
       </Properties>
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="charmanderEgg">
-      <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="pokemonEgg"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Charmander"/>
-        <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
-          <Connection code="PokeDex.Charmander" type="code"/>
-        </Property>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="squirtleEgg">
-      <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="pokemonEgg"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Squirtle"/>
-        <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
-          <Connection code="PokeDex.Squirtle" type="code"/>
-        </Property>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="caterpieEgg">
-      <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="pokemonEgg"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Caterpie"/>
-        <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
-          <Connection code="PokeDex.Caterpie" type="code"/>
-        </Property>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="weedleEgg">
-      <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="pokemonEgg"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Weedle"/>
-        <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
-          <Connection code="PokeDex.Weedle" type="code"/>
-        </Property>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="pidgeyEgg">
-      <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="pokemonEgg"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Pidgey"/>
-        <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
-          <Connection code="PokeDex.Pidgey" type="code"/>
-        </Property>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rattataEgg">
-      <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="pokemonEgg"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Rattata"/>
-        <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
-          <Connection code="PokeDex.Weedle" type="code"/>
-        </Property>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="spearowEgg">
-      <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="pokemonEgg"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Spearow"/>
-        <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
-          <Connection code="PokeDex.Spearow" type="code"/>
-        </Property>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="ekansEgg">
-      <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="pokemonEgg"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Ekans"/>
-        <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
-          <Connection code="PokeDex.Ekans" type="code"/>
-        </Property>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="pichuEgg">
-      <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="pokemonEgg"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Pichu"/>
-        <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
-          <Connection code="PokeDex.Pichu" type="code"/>
-        </Property>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="sandshrewEgg">
-      <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="pokemonEgg"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Sandshrew"/>
-        <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
-          <Connection code="PokeDex.Sandshrew" type="code"/>
-        </Property>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="nidoranEgg">
-      <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="pokemonEgg"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Nidoran"/>
-        <Property name="name" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
-          <Connection code="PokeDex.Nidoran" type="code"/>
-        </Property>
-      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="kantoToggleActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>
